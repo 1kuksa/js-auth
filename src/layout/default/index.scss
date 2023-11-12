@@ -45,6 +45,19 @@ body {
 
 		justify-content: center;
 	}
+	&__divider {
+		display: block;
+		border: none;
+		width: 100%;
+		margin: 0;
+		height: 1px;
+		background-color: s.color(divider);
+	}
+
+	&--top {
+		display: flex;
+		flex-direction: column;
+	}
 
 	&__title {
 		font-size: 24px;
